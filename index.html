@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visionary Vibes</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(145deg, #e0c3fc, #8ec5fc);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      backdrop-filter: blur(8px);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #f3f3f3;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      color: #2e1065;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 60px 20px;
+      gap: 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      padding: 30px;
+      width: 280px;
+      text-align: center;
+      transition: transform 0.4s ease;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card h3 {
+      font-size: 1.4rem;
+      color: #7e22ce;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    footer {
+      background: #2e1065;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      font-style: italic;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Visionary Vibes 🚀</h1>
+    <p>Where design meets imagination</p>
+  </header>
+
+  <section class="hero">
+    <h2>Unleash Your Creativity</h2>
+    <p>This webpage is built with just HTML and CSS but brings out high-impact design with glass effects, soft gradients, and a futuristic layout.</p>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h3>✨ Glassmorphism</h3>
+      <p>Frosted cards with soft shadows add a modern aesthetic and highlight your content.</p>
+    </div>
+    <div class="card">
+      <h3>📱 Responsive</h3>
+      <p>Adapts perfectly to all devices — no extra libraries needed.</p>
+    </div>
+    <div class="card">
+      <h3>🎨 Pure HTML & CSS</h3>
+      <p>Lightweight, smooth-loading and completely built without JavaScript.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Visionary Vibes | Designed by Brindha 💫</p>
+  </footer>
+</body>
+</html>
